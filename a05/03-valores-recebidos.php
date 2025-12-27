@@ -8,6 +8,11 @@
 <body>
     <h2>Operações Aritméticas</h2>
         <?php 
+            // Ordem de Precedência dos operadores
+            //1º - () -> Parênteses
+            //2º - *, /, % -> Multiplicação, Divisão e Módulo (Resto da Divisão)
+            //3º - +, - -> Adição e Subtração
+            
             $n1 = $_GET["a"];
             $n2 = $_GET["b"];
             echo "<h2>Valore recebidos : $n1 e $n2</h2>";

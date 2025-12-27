@@ -15,6 +15,12 @@
 
         // Outra forma de exibir as variáveis
         echo "<br>" . $nome . " tem " . $idade . " anos, sua altura é " . $altura;
+
+        // Tipos em PHP
+        // Inteiro (int), (integer) <- typecast
+        // Real (real), (float), (double)
+        // Caractere (string)
+        // logico(???) true = 1, false = vazio
     ?>
 </body>
 </html>

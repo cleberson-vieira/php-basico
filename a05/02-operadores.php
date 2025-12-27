@@ -8,10 +8,12 @@
 <body>
     <h2>Operações Aritméticas</h2>
         <?php 
-            // Ordem de Precedência dos operadores
-            //1º - () -> Parênteses
-            //2º - *, /, % -> Multiplicação, Divisão e Módulo (Resto da Divisão)
-            //3º - +, - -> Adição e Subtração
+            //Adição +
+            //Subtração -
+            //Multiplicação *
+            //Divisão /
+            //Módulo %
+
             $n1 = 3;
             $n2 = 2;
             $m = ($n1 + $n2) / 2;
